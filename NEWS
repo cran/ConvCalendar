@@ -1,0 +1,5 @@
+1.1 License change to GPL-2, thanks to permission from the author of the C code
+    
+    as.OtherDate.default method which converts anything that can be 
+    coerced to Date
+

@@ -2,3 +2,5 @@ useDynLib(ConvCalendar)
 export(OtherDate,as.OtherDate)
 S3method(as.Date,OtherDate)
 S3method(as.OtherDate,Date)
+S3method(as.OtherDate,default)
+

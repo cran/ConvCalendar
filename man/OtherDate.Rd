@@ -3,17 +3,19 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \alias{as.OtherDate.Date}
 \alias{as.Date.OtherDate}
+\alias{as.OtherDate.default}
 \alias{as.OtherDate}
 \title{Calendar conversions }
 \description{
 \code{OtherDate()} creates an object of class \code{OtherDate} containing day, month, year, and
-calendar. This has methods to convert to and from \code{Date}.
+calendar. This has methods to convert to and from \code{Date}, and will attempt to convert from any other type by coercing to \code{Date} first.
 }
 \usage{
 OtherDate(day, month, year, calendar)
 as.OtherDate(x,calendar,...)
 \method{as.Date}{OtherDate}(x,...)
 \method{as.OtherDate}{Date}(x,calendar,...)
+\method{as.OtherDate}{default}(x,calendar,...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -67,6 +69,14 @@ as.OtherDate(gregorian,"islamic")
 
 as.OtherDate(gregorian,"hebrew")
 
+## from POSIXct
+as.OtherDate(.leap.seconds, "persian")
+
+\dontrun{
+## from character string in Gregorian date,
+##   (depends on month names in your locale)
+as.OtherDate("14jun1969",format="\%d\%b\%Y", "hebrew")
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

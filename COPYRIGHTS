@@ -1,0 +1,8 @@
+The files dates.cpp, dates.h, watdefs.h are from 
+http://www.projectpluto.com/source.htm#date_cpp and are copyright (c) 
+Project Pluto.  The author, Bill J. Gray, has given permission for them 
+to be re-released under GPL-2.
+
+
+The files convdates.c and convdates.R are by Thomas Lumley and are
+hereby placed in the public domain.
