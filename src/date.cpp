@@ -1200,7 +1200,7 @@ long DLL_FUNC dmy_to_day( const int day, const int month, const long year,
 
 {
 
-   char mdata[13];
+   char mdata[23];
 
    long jd, year_ends[2];
 
@@ -1270,7 +1270,7 @@ void DLL_FUNC day_to_dmy( const long jd, int DLLPTR *day,
 
    long year_ends[2], curr_jd;
 
-   char month_data[13];
+   char month_data[23];
 
    int i;
 

@@ -1,0 +1,13 @@
+f7c1089d84004be7ef556167020d14b3 *COPYRIGHTS
+b74de76acc2a04bcae29303426dd075f *DESCRIPTION
+0588647f634eb05322c287ebea096cab *NAMESPACE
+f976db77c481dc71e8f0d53c424223f3 *NEWS
+8be119c0a953809a87e3df815db8db3b *R/OtherDate.R
+cba4359e821c939c9c15ff61393557e7 *R/as.Date.OtherDate.R
+538732f236aef23b1d463d9c31418cb9 *R/as.OtherDate.Date.R
+6ded136fcd77017af593646bccf4c1f6 *R/as.OtherDate.R
+ad2963eba7955b7071cea155d4a4f893 *man/OtherDate.Rd
+8cb0edc94260b5ad9b266d81ceff6984 *src/convdates.c
+2b933a2bd7ce24e601ef4c3cb4adfb2e *src/date.cpp
+0c8c8ba8794e0f6702c5a561aa39f135 *src/date.h
+2e648dba44732b1bf9b18af502f1e2a1 *src/watdefs.h

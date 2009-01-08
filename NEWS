@@ -1,3 +1,5 @@
+1.2 was crashing on OS X, R 3.0.0.  Apparently fixed by making mdata longer.
+
 1.1 License change to GPL-2, thanks to permission from the author of the C code
     
     as.OtherDate.default method which converts anything that can be 
